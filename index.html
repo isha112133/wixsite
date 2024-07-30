@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap 5 Header</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="col-12 ps-3 pt-4">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <div class="d-flex gap-5">
+            <img
+              src="logo.png"
+              class="img-fluid"
+              alt=""
+              width="120px"
+              height="120px"
+            />
+            <a class="navbar-brand" href="#">OD Alternatives</a>
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto d-flex">
+              <li class="nav-item border-end border-black pr-xl-4">
+                <a class="nav-link active fs-6" aria-current="page" href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item border-end border-black">
+                <a class="nav-link" href="#">Our Expertise</a>
+              </li>
+              <li class="nav-item border-end border-black">
+                <a class="nav-link" href="#">Our People</a>
+              </li>
+              <li class="nav-item border-end border-black">
+                <a class="nav-link" href="#">Our Clients</a>
+              </li>
+              <li class="nav-item border-end border-black">
+                <a class="nav-link" href="#">Recent Project</a>
+              </li>
+              <li class="nav-item border-end border-black">
+                <a class="nav-link" href="#">OD Certification</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Our Clients</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="container mb-5 pb-5 pt-5 mt-5">
+      <div class="row">
+        <div class="col-md-6 custom-div ps-5 pe-5 d-flex flex-column g-5">
+          <h2 class="larger-text-h2 text-start">Because you believe in</h2>
+          <h1 class="larger-text-h1 text-start">Depth and impact</h1>
+          <p class="text-start larger-text-p">
+            We have been helping our clients, since 1998, in creating depth and
+            impact in their L&D and OD interventions.
+          </p>
+          <div class="d-flex justify-content-center pt-3 pt-lg-0 pb-5 pb-lg-0">
+            <img
+              src="fish-blackwhite.png"
+              class="img-fluid"
+              alt=""
+              width="260"
+              height="260"
+            />
+          </div>
+        </div>
+        <div class="col-md-6 custom-div div2">
+          <div class="slider-container">
+            <div class="slider-images">
+              <img
+                src="swipe-img.png"
+                alt="Image 1"
+                class="active"
+                width="520px"
+                height="520px"
+              />
+              <img
+                src="swipe-img1.jpeg"
+                alt="Image 2"
+                width="520px"
+                height="520px"
+              />
+              <img
+                src="swipe-img2.jpg"
+                alt="Image 3"
+                width="520px"
+                height="520px"
+              />
+            </div>
+            <button class="prev" onclick="prevSlide()"><</button>
+            <button class="next" onclick="nextSlide()">></button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <button
+      class="btn btn-views-news position-fixed border-black border border-2"
+    >
+      <span class="ps-4 pe-4 larger-text-p"
+        >Views & News <span class="ps-2">>></span></span
+      >
+    </button>
+    <section class="content-section pt-5">
+      <div class="wave position-relative">
+        <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path
+            d="M0,0V46.29c47.65,22.17,103.71,39.38,163.4,39.38,84.83,0,164.07-34.82,252.36-33.69,86.67,1.11,172.6,36.19,260.34,36.21,87.77,0,175.64-35.3,263.4-36.31,87.77-1,175.64,34.18,263.4,34.35V0Z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <p class="">
+              You are probably exploring how to build the right culture and
+              capabilities that support growth and transformation in your
+              organisation.
+            </p>
+            <p class="text-[#000000]">
+              <a class="nav-link text-decoration-underline" href="#"
+                >Then Congratulations! You are at the right place.</a
+              >
+            </p>
+            <p>
+              <a class="nav-link text-decoration-underline" href="#"
+                >We have been helping our clients, since 1998, in creating depth
+                and impact in their L&D and OD interventions.</a
+              >
+            </p>
+          </div>
+          <div class="col-md-6">
+            <p>
+              Clients have reached out to us when they wanted to create Vision,
+              Mission and Values, understand the current culture and drive
+              culture change, carry out Leadership Development for high
+              potential employees, design Capability Building Programs for mid
+              and senior employees, coaching for CXOs, Drive growth and
+              transformation by involving and engaging the whole system, execute
+              Women Leadership Programs, and undertake succession planning etc.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- our expertise -->
+    <section class="col-12 pt-5 pb-5 d-flex flex-column align-items-center">
+      <h1 class="text-start my-4">Our Expertise</h1>
+      <div class="row g-5 col-10 d-flex justify-content-between">
+        <div
+          class="col-md-6 col-xl-3 expertise-section text-center d-flex flex-column align-items-center"
+        >
+        <div class="relative-pos">
+          <img src="tape.png" alt="Tape Left" class="tape-left">
+          <img src="bird.webp" class="expertise-icon border mb-3 shadow-lg" height="400px" width="300px" alt="Whole System Transformation">
+          <img src="tape.png" alt="Tape Right" class="tape-right">
+      </div>
+      <div class="d-flex flex-column mt-4 g-3">    
+      <h4>WHOLE SYSTEM TRANSFORMATION</h4>
+          <p>
+            We support our clients in creating whole system transformation using
+            behavioral skills and knowledge. These are large-scale change
+            initiatives that address both performance and culture.
+          </p></div>
+        </div>
+        <div
+          class="col-md-6 col-xl-3 expertise-section text-center d-flex flex-column align-items-center"
+        >
+        <div class="relative-pos">
+          <img src="tape.png" alt="Tape Left" class="tape-left">
+          <img
+            src="rabbit.webp"
+            class="expertise-icon border mb-3 shadow-lg" height="400px" width="300px"
+            alt="Leadership Development"
+          />
+          <img src="tape.png" alt="Tape Right" class="tape-right">
+      </div>
+      <div class="d-flex flex-column mt-4 g-3">   
+          <h4>LEADERSHIP DEVELOPMENT</h4>
+          <p>
+            We also design and deliver learning interventions for mid and senior
+            level executives. You can download our Leadership Development White
+            paper and Women Leadership study.
+          </p>
+          </div>
+        </div>
+        <div
+          class="col-md-6 col-xl-3 expertise-section text-center d-flex flex-column align-items-center"
+        >
+        <div class="relative-pos">
+          <img src="tape.png" alt="Tape Left" class="tape-left">
+          <img
+            src="owl.webp"
+            class="expertise-icon border mb-3 shadow-lg" height="400px" width="300px"            alt="Top Team Development"
+          />
+          <img src="tape.png" alt="Tape Right" class="tape-right">
+      </div>
+      <div class="d-flex flex-column mt-4 g-3">   
+          <h4>TOP TEAM DEVELOPMENT</h4>
+          <p>
+            We work with top teams (CEO and their team), helping them to be more
+            cohesive, innovative, and effective. You can download our whitepaper
+            on Top Team Development.
+          </p>
+          </div>
+        </div>
+        <div
+          class="col-md-6 col-xl-3 expertise-section text-center d-flex flex-column align-items-center"
+        >
+        <div class="relative-pos">
+          <img src="tape.png" alt="Tape Left" class="tape-left">
+          <img
+            src="frog.webp"
+            class="expertise-icon border mb-3 shadow-lg" height="400px" width="300px"
+            alt="Organisational Diagnosis"
+          />
+          <img src="tape.png" alt="Tape Right" class="tape-right">
+      </div>
+      <div class="d-flex flex-column mt-4 g-3">   
+          <h4>ORGANISATIONAL DIAGNOSIS</h4>
+          <p>
+            We facilitate offsites and help build more team cohesiveness and
+            collective identity.
+          </p>
+      </div>
+        </div>
+        <div class="col-12 d-flex justify-content-between">
+          <button class="btn btn-dark custom-button">View More</button>
+          <button class="btn btn-dark custom-button">View More</button>
+        </div>
+      </div>
+      <div
+        class="container-fluid d-flex justify-content-center align-items-center mt-5 pt-5"
+      >
+        <div class="row d-flex justify-content-center">
+          <div
+            class="d-flex flex-column flex-xl-row justify-content-center align-items-center"
+          >
+            <div
+              class="col-8 col-xl-4 d-flex flex-column justify-content-start"
+            >
+              <div class="text-center larger-text-p">
+                <p>Everything we do we use our unique model</p>
+                <h2 class="larger-text-h2 text-center">
+                  "Triple Loop Learning"
+                </h2>
+                <p class="text-center larger-text-p">to create</p>
+                <h2 class="larger-text-h2 text-center">"Depth & Impact"</h2>
+              </div>
+            </div>
+            <div class="col-10 col-xl-6 text-center pb-5 pt-5 pb-lg-0 pt-lg-0">
+              <img
+                src="final_circle.png"
+                alt="Final Circle"
+                class="img-fluid"
+                style="max-width: 80%"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container col-md-12 mt-lg-5 pt-lg-5 mb-5">
+        <div
+          class="row d-flex align-items-start mt-5 justify-content-center align-items-center"
+        >
+          <div class="col-6 col-xl-5 d-flex pb-5 pb-xl-0">
+            <img
+              src="face_change.png"
+              class="expertise-icon img-fluid"
+              alt="Learning Loops"
+              style="width: 450px; height: auto"
+            />
+          </div>
+          <div class="col-md-9 col-lg-7 d-flex flex-column" style="gap: 56px">
+            <div class="border-bottom border-4 border-dark">
+              <div class="d-flex mb-3 align-items-center hover-effect">
+                <div class="col-md-2 loop-section">
+                  <h5
+                    class="text-center larger-text-p fw-bold d-flex flex-column"
+                  >
+                    <span class="larger-text-h1 text-center">01</span> SINGLE
+                    LOOP
+                  </h5>
+                </div>
+                <div class="col-12 col-xl-10">
+                  <ul class="text-start text-loop fw-light col-md-12">
+                    <li>Learning new skills and capabilities</li>
+                    <li>Incremental improvement</li>
+                    <li>
+                      Doing something better without examining or challenging
+                      underlying beliefs and assumptions.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="border-bottom border-4 border-dark">
+              <div class="d-flex mb-3 align-items-center hover-effect">
+                <div class="col-md-2 loop-section">
+                  <h5
+                    class="text-center larger-text-p fw-bold d-flex flex-column"
+                  >
+                    <span class="larger-text-h1 text-center">02</span> DOUBLE
+                    LOOP
+                  </h5>
+                </div>
+                <div class="col-12 col-xl-10">
+                  <ul class="text-start text-loop fw-light col-md-12">
+                    <li>
+                      Fundamentally reshaping the underlying patterns of our
+                      thinking and behavior.
+                    </li>
+                    <li>As a result, we’re capable of doing differently.</li>
+                    <li>Going beyond single-loop or incremental learning.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="border-bottom border-4 border-dark">
+              <div class="d-flex mb-3 align-items-center hover-effect">
+                <div class="col-md-2 loop-section">
+                  <h5
+                    class="text-center larger-text-p fw-bold d-flex flex-column"
+                  >
+                    <span class="larger-text-h1 text-center">03</span> TRIPLE
+                    LOOP
+                  </h5>
+                </div>
+                <div class="col-12 col-xl-10">
+                  <ul class="text-start text-loop fw-light col-md-12">
+                    <li>
+                      It involves “learning how to learn” by reflecting on how
+                      we learn in the first place.
+                    </li>
+                    <li>
+                      This is about learning how our “being” influences our
+                      beliefs and thus our actions.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container mt-5 pt-5">
+        <div class="row justify-content-center">
+          <div
+            class="col-md-12 d-flex flex-column flex-md-row justify-content-center align-items-center"
+          >
+            <div class="col-md-6 text-center">
+              <p class="text-center larger-text-p">
+                When we design Org wide change/transformation Interventions, we
+                address both visible(overt) and Hidden(covert) parts of the
+                Organization Thus creating Depth and Impact in your long-term
+                Interventions​
+              </p>
+            </div>
+            <div class="col-md-6 text-center">
+              <img
+                src="circle_change.webp"
+                alt="Final Circle"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About founder -->
+    <div class="container-fluid ps-5 pe-5 pe-xl-0 d-flex justify-content-center content-section mt-5 mb-5">
+      <div class="row d-flex flex-column flex-xl-row col-xl-12 align-items-center justify-content-center">
+        <div class="col-xl-4 text-start about-founder">
+          About the Founder... Santhosh is passionate about supporting
+          leadership teams in creating new possibilities that add value to all
+          stakeholders. He started ODA in 1998 and has worked with more than 300
+          clients across the globe. Santhosh is the author of India’s first book
+          on coaching published by Wiley and started the first coach training
+          program in 2006 in India. He is also an awardee of Life Time
+          Achievement Award from Gestalt Institute, USA, and selected as a
+          Thinkers 50 in 2014. Santhosh used to write a column in Business Today
+          called “Buddha in the Boardroom.“ Santhosh coaches some CEOs and works
+          with several leadership teams driving transformation, culture change,
+          and leadership development. Before starting ODA, Santhosh worked as a
+          primary school teacher in Bhutan and as an Environmental Education
+          Officer with World Wildlife Fund.
+        </div>
+        <div class="col-xl-6 mb-5 pb-5">
+          <svg style="position: relative; left: 15%; margin-bottom:15%;"
+            preserveAspectRatio="none"
+            data-bbox="0 0 200 200"
+            xmlns="http://www.w3.org/2000/svg"
+            width="200"
+            height="200"
+            viewBox="0 0 200 200"
+            role="presentation"
+            aria-hidden="true"
+          >
+            <g>
+              <path
+              fill="#C7C7C7"
+                d="M200 100c0 55.228-44.772 100-100 100S0 155.228 0 100 44.772 0 100 0s100 44.772 100 100z"
+              ></path>
+            </g>
+          </svg>         
+          <div style="position: relative;" class="row mb-5 pb-5 d-flex align-items-center justify-content-center border-bottom">
+            <img src="santhosh-babu.webp" alt="Santhosh Babu" style="max-width: 60%; position: absolute;" />
+          </div>
+          <img src="square.png" alt="" class="square" />
+          </div>         
+        </div>
+      </div>
+    </div>
+    <!-- Reviews -->
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-sm-10 col-md-8 col-lg-11 col-xl-12">
+          <h2 class="text-center text-md-start mt-5 pt-5">What Our Clients Say</h2>
+          <div class="d-flex flex-column flex-md-row justify-content-center align-items-center mt-4 g-5">
+            <!-- Testimonial Card 1 -->
+            <div class="col-12 col-sm-10 col-md-8 col-lg-4 me-5">
+              <div class="card mx-auto">
+                <div class="card-body text-left position-relative">
+                  <p class="fs-xl-5 fw-light">
+                    Successful organizational design and development outcomes
+                    require intricate internal navigation and a fine balance of
+                    using multiple approaches ranging from large-scale structured
+                    interventions to intense personal conversations.
+                  </p>
+                  <p class="text-end"><strong>Read More</strong></p>
+                  <p class="text-end"><strong>Animesh Kumar</strong><br />IDFC Bank</p>
+                  <svg class="position-absolute" style="bottom: -15%; left: -15%;"
+                    preserveAspectRatio="xMidYMid meet"
+                    data-bbox="25.484 20.423 145.362 159.342"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="150"
+                    height="150"
+                    viewBox="25.484 20.423 145.362 159.342"
+                    data-type="color"
+                    role="presentation"
+                    aria-hidden="true"
+                    aria-label=""
+                  >
+                    <!-- SVG Content -->
+                    <g>
+                      <path
+                        d="M137.03 74.22c0 21.387-17.337 38.724-38.724 38.724-21.387 0-38.724-17.337-38.724-38.724 0-21.387 17.337-38.724 38.724-38.724 21.387 0 38.724 17.337 38.724 38.724z"
+                        fill="#F09C70"
+                        data-color="1"
+                      ></path>
+                      <path
+                        fill="#B499D6"
+                        d="M170.846 179.765c-.099-32.663-32.599-59.118-72.681-59.118s-72.583 26.455-72.681 59.118h145.362z"
+                        data-color="2"
+                      ></path>
+                      <path
+                        fill="#F09C70"
+                        d="M121.319 123.772a85.485 85.485 0 00-9.163-1.994c.03-.374.057-.749.057-1.13v-14.049H84.116v14.049c0 .381.027.756.057 1.13a85.676 85.676 0 00-9.163 1.994c0 .04-.006.078-.006.118 0 12.791 10.369 23.161 23.16 23.161s23.16-10.369 23.16-23.161c.001-.04-.005-.078-.005-.118z"
+                        data-color="1"
+                      ></path>
+                      <path
+                        opacity=".1"
+                        d="M84.116 112.059h28.095l.002 6.206s-5.332 2.101-15.668-.091c-10.335-2.192-12.429-4.676-12.429-4.676v-1.439z"
+                      ></path>
+                      <path
+                        opacity=".08"
+                        d="M98.202 76.23a4.35 4.35 0 014.228 3.351 4.33 4.33 0 00.128-1.005 4.356 4.356 0 10-8.712 0c0 .348.051.681.128 1.005a4.349 4.349 0 014.228-3.351z"
+                      ></path>
+                      <path
+                        d="M120.185 68.404a1.844 1.844 0 11-3.688 0 1.844 1.844 0 013.688 0z"
+                        fill="#1A1A1A"
+                        data-color="3"
+                      ></path>
+                      <path
+                        d="M80.115 68.404a1.844 1.844 0 11-3.688 0 1.844 1.844 0 013.688 0z"
+                        fill="#1A1A1A"
+                        data-color="3"
+                      ></path>
+                      <path
+                        fill="#6D3827"
+                        d="M119.485 85.466v-2.239H76.919v2.239H61.064c3.437 17.374 18.755 30.476 37.138 30.476s33.701-13.102 37.138-30.476h-15.855z"
+                        data-color="4"
+                      ></path>
+                      <path
+                        fill="#1A1A1A"
+                        d="M82.867 87.621c0 .05-.004.1-.004.15 0 8.472 6.868 15.339 15.339 15.339s15.339-6.868 15.339-15.339c0-.05-.003-.1-.004-.15h-30.67z"
+                        data-color="3"
+                      ></path>
+                      <path
+                        fill="#FFFFFF"
+                        d="M82.866 87.621c0 .05-.004.1-.004.15 0 1.179.145 2.322.397 3.424h29.884c.252-1.102.397-2.245.397-3.424 0-.05-.003-.1-.004-.15h-30.67z"
+                        data-color="5"
+                      ></path>
+                      <path
+                        fill="#C1272D"
+                        d="M91.097 101.376a15.255 15.255 0 007.068 1.734c2.551 0 4.951-.632 7.068-1.734a9.652 9.652 0 00-7.068-3.077 9.652 9.652 0 00-7.068 3.077z"
+                        data-color="6"
+                      ></path>
+                      <path
+                        fill="#6D3827"
+                        d="M61.752 81.618l2.383-15.413 3.007-1.191 3.574-17.198H125.5l3.574 17.198 3.289 1.191 1.191 15.413 3.236-1.191c3.132-6.008 4.912-11.64 4.912-18.884 0-24.026-19.477-41.12-43.503-41.12s-43.503 17.094-43.503 41.12c0 7.244.589 12.876 3.721 18.884l3.335 1.191z"
+                        data-color="4"
+                      ></path>
+                      <path
+                        fill="#F09C70"
+                        d="M61.064 70.399h-1.778a5.61 5.61 0 100 11.219h1.086a39.123 39.123 0 01-.143-3.208c0-2.747.291-5.425.835-8.011z"
+                        data-color="1"
+                      ></path>
+                      <path
+                        fill="#F09C70"
+                        d="M137.118 70.399h-1.778c.544 2.585.835 5.264.835 8.011 0 1.081-.056 2.149-.143 3.208h1.086a5.61 5.61 0 100-11.219z"
+                        data-color="1"
+                      ></path>
+                      <path
+                        opacity=".06"
+                        d="M137.118 70.399h-1.778c.544 2.585.835 5.264.835 8.011 0 1.081-.056 2.149-.143 3.208h1.086a5.61 5.61 0 100-11.219z"
+                      ></path>
+                      <path
+                        opacity=".06"
+                        d="M61.064 70.399h-1.778a5.61 5.61 0 100 11.219h1.086a39.123 39.123 0 01-.143-3.208c0-2.747.291-5.425.835-8.011z"
+                      ></path>
+                    </g>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <!-- Testimonial Card 2 -->
+            <div class="col-12 col-sm-10 col-md-8 col-lg-4 me-5">
+              <div class="card mx-auto">
+                <div class="card-body text-left position-relative">
+                  <p class="fs-xl-5 fw-light">
+                    Refreshing Mission Vision and Values for an organization can
+                    be a fairly energizing and unifying experience, if handled
+                    deftly. This is exactly how it turned out for us when Santhosh
+                    Babu facilitated this initiative with our top leadership team.
+                  </p>
+                  <p class="text-end"><strong>Read More</strong></p>
+                  <p class="text-end"><strong>Rajesh Sud</strong><br />Max Bupa Health</p>
+                  <svg class="position-absolute" style="bottom: -15%; left: -15%;"
+                    preserveAspectRatio="xMidYMid meet"
+                    data-bbox="25.484 20.423 145.362 159.342"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="150"
+                    height="150"
+                    viewBox="25.484 20.423 145.362 159.342"
+                    data-type="color"
+                    role="presentation"
+                    aria-hidden="true"
+                    aria-label=""
+                  >
+                    <!-- SVG Content -->
+                    <g>
+                      <path
+                        fill="#F7B98F"
+                        d="M140.147 79.181H59.853a5.677 5.677 0 010-11.354h80.294a5.677 5.677 0 010 11.354z"
+                        data-color="1"
+                      ></path>
+                      <path
+                        opacity=".06"
+                        fill="#F7B98F"
+                        d="M140.147 79.181H59.853a5.677 5.677 0 010-11.354h80.294a5.677 5.677 0 010 11.354z"
+                        data-color="1"
+                      ></path>
+                      <g opacity=".03">
+                        <path
+                          d="M140.147 79.181H59.853a5.677 5.677 0 010-11.354h80.294a5.677 5.677 0 010 11.354z"
+                        ></path>
+                        <path
+                          opacity=".02"
+                          d="M140.147 79.181H59.853a5.677 5.677 0 010-11.354h80.294a5.677 5.677 0 010 11.354z"
+                        ></path>
+                      </g>
+                      <path
+                        fill="#467A31"
+                        d="M173.56 180.041c-.1-33.058-32.993-59.833-73.56-59.833s-73.46 26.775-73.56 59.833h147.12z"
+                        data-color="2"
+                      ></path>
+                      <path
+                        opacity=".15"
+                        d="M26.44 180.041h147.12a49.549 49.549 0 00-1.758-12.875H28.198a49.592 49.592 0 00-1.758 12.875z"
+                      ></path>
+                      <path
+                        opacity=".15"
+                        d="M37.61 148.424h124.78c-5.825-7.59-13.674-14.035-22.932-18.845H60.541c-9.257 4.81-17.106 11.254-22.931 18.845z"
+                      ></path>
+                      <path
+                        fill="#F7B98F"
+                        d="M123.434 123.371a86.423 86.423 0 00-9.274-2.018c.03-.378.058-.758.058-1.144V105.99H85.782v14.218c0 .386.028.765.058 1.144a86.72 86.72 0 00-9.274 2.018c0 .04-.006.079-.006.119 0 12.946 10.495 23.44 23.44 23.44s23.44-10.495 23.44-23.44c0-.039-.006-.078-.006-.118z"
+                        data-color="1"
+                      ></path>
+                      <path
+                        fill="#F4AA00"
+                        d="M139.192 69.036H60.808V20.123h54.265c13.32 0 24.118 10.798 24.118 24.118v24.795z"
+                        data-color="3"
+                      ></path>
+                      <path
+                        opacity=".08"
+                        d="M85.782 111.516h28.434l.002 6.281s-5.397 2.126-15.857-.092c-10.46-2.218-12.579-4.732-12.579-4.732v-1.457z"
+                      ></path>
+                      <path
+                        fill="#F7B98F"
+                        d="M139.192 73.504c0-21.645-17.547-39.192-39.192-39.192S60.808 51.859 60.808 73.504c0 .408.018.811.031 1.215-.012.405-.031.808-.031 1.215 0 21.645 17.547 39.192 39.192 39.192s39.192-17.547 39.192-39.192c0-.408-.018-.811-.031-1.215.012-.404.031-.807.031-1.215z"
+                        data-color="1"
+                      ></path>
+                      <path
+                        fill="#1A1A1A"
+                        d="M116.442 64.962a4.402 4.402 0 014.279 3.392c.078-.328.13-.666.13-1.017a4.409 4.409 0 00-8.818 0c0 .352.052.69.13 1.017a4.402 4.402 0 014.279-3.392z"
+                        data-color="4"
+                      ></path>
+                      <path
+                        fill="#1A1A1A"
+                        d="M82.199 64.962a4.402 4.402 0 014.279 3.392c.078-.328.13-.666.13-1.017a4.409 4.409 0 00-8.818 0c0 .352.052.69.13 1.017a4.401 4.401 0 014.279-3.392z"
+                        data-color="4"
+                      ></path>
+                      <path
+                        fill="#1A1A1A"
+                        d="M84.479 86.462c0 .051-.004.101-.004.152 0 8.574 6.951 15.524 15.524 15.524s15.524-6.951 15.524-15.524c0-.051-.003-.101-.004-.152h-31.04z"
+                        data-color="4"
+                      ></path>
+                      <path
+                        fill="#C1272D"
+                        d="M92.847 100.384c2.142 1.115 4.571 1.755 7.153 1.755s5.011-.64 7.153-1.755A9.767 9.767 0 00100 97.27a9.76 9.76 0 00-7.153 3.114z"
+                        data-color="5"
+                      ></path>
+                      <g opacity=".08">
+                        <path
+                          d="M100 73.728a4.402 4.402 0 014.279 3.392c.078-.328.13-.666.13-1.017a4.409 4.409 0 00-8.818 0c0 .352.052.69.13 1.017A4.402 4.402 0 01100 73.728z"
+                        ></path>
+                        <path
+                          opacity=".06"
+                          d="M100 73.728a4.402 4.402 0 014.279 3.392c.078-.328.13-.666.13-1.017a4.409 4.409 0 00-8.818 0c0 .352.052.69.13 1.017A4.402 4.402 0 01100 73.728z"
+                        ></path>
+                      </g>
+                      <path
+                        d="M135.74 32.886H64.41l-3.602 12.499v23.651h4.725L69.5 49.825h61l3.967 19.211h4.725V45.385l-3.452-12.499z"
+                        fill="#F4AA00"
+                        data-color="3"
+                      ></path>
+                    </g>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <!-- Testimonial Card 3 -->
+            <div class="col-12 col-sm-10 col-md-8 col-lg-4 me-5">
+              <div class="card mx-auto">
+                <div class="card-body text-left position-relative">
+                  <p class="fs-xl-5 fw-light">
+                    I have worked with ODA on multiple occasions in the last five
+                    years. Facilitating strategy meets, helping manage change,
+                    supporting our leaders through change, and building team
+                    effectiveness are some of the areas we worked with the ODA
+                    team.
+                  </p>
+                  <p class="text-end"><strong>Read More</strong></p>
+                  <p class="text-end"><strong>Ramesh Dahiya</strong><br />Axis Bank</p>
+                  <svg class="position-absolute" style="bottom: -15%; left: -15%;"
+                    preserveAspectRatio="xMidYMid meet"
+                    data-bbox="26.44 20.123 147.12 159.918"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="150"
+                    height="150"
+                    viewBox="26.44 20.123 147.12 159.918"
+                    data-type="color"
+                    role="presentation"
+                    aria-hidden="true"
+                    aria-label=""
+                  >
+                    <!-- SVG Content -->
+                    <g>
+                      <path
+                        d="M137.03 74.22c0 21.387-17.337 38.724-38.724 38.724-21.387 0-38.724-17.337-38.724-38.724 0-21.387 17.337-38.724 38.724-38.724 21.387 0 38.724 17.337 38.724 38.724z"
+                        fill="#F09C70"
+                        data-color="1"
+                      ></path>
+                      <path
+                        fill="#B499D6"
+                        d="M170.846 179.765c-.099-32.663-32.599-59.118-72.681-59.118s-72.583 26.455-72.681 59.118h145.362z"
+                        data-color="2"
+                      ></path>
+                      <path
+                        fill="#F09C70"
+                        d="M121.319 123.772a85.485 85.485 0 00-9.163-1.994c.03-.374.057-.749.057-1.13v-14.049H84.116v14.049c0 .381.027.756.057 1.13a85.676 85.676 0 00-9.163 1.994c0 .04-.006.078-.006.118 0 12.791 10.369 23.161 23.16 23.161s23.16-10.369 23.16-23.161c.001-.04-.005-.078-.005-.118z"
+                        data-color="1"
+                      ></path>
+                      <path
+                        opacity=".1"
+                        d="M84.116 112.059h28.095l.002 6.206s-5.332 2.101-15.668-.091c-10.335-2.192-12.429-4.676-12.429-4.676v-1.439z"
+                      ></path>
+                      <path
+                        opacity=".08"
+                        d="M98.202 76.23a4.35 4.35 0 014.228 3.351 4.33 4.33 0 00.128-1.005 4.356 4.356 0 10-8.712 0c0 .348.051.681.128 1.005a4.349 4.349 0 014.228-3.351z"
+                      ></path>
+                      <path
+                        d="M120.185 68.404a1.844 1.844 0 11-3.688 0 1.844 1.844 0 013.688 0z"
+                        fill="#1A1A1A"
+                        data-color="3"
+                      ></path>
+                      <path
+                        d="M80.115 68.404a1.844 1.844 0 11-3.688 0 1.844 1.844 0 013.688 0z"
+                        fill="#1A1A1A"
+                        data-color="3"
+                      ></path>
+                      <path
+                        fill="#6D3827"
+                        d="M119.485 85.466v-2.239H76.919v2.239H61.064c3.437 17.374 18.755 30.476 37.138 30.476s33.701-13.102 37.138-30.476h-15.855z"
+                        data-color="4"
+                      ></path>
+                      <path
+                        fill="#1A1A1A"
+                        d="M82.867 87.621c0 .05-.004.1-.004.15 0 8.472 6.868 15.339 15.339 15.339s15.339-6.868 15.339-15.339c0-.05-.003-.1-.004-.15h-30.67z"
+                        data-color="3"
+                      ></path>
+                      <path
+                        fill="#FFFFFF"
+                        d="M82.866 87.621c0 .05-.004.1-.004.15 0 1.179.145 2.322.397 3.424h29.884c.252-1.102.397-2.245.397-3.424 0-.05-.003-.1-.004-.15h-30.67z"
+                        data-color="5"
+                      ></path>
+                      <path
+                        fill="#C1272D"
+                        d="M91.097 101.376a15.255 15.255 0 007.068 1.734c2.551 0 4.951-.632 7.068-1.734a9.652 9.652 0 00-7.068-3.077 9.652 9.652 0 00-7.068 3.077z"
+                        data-color="6"
+                      ></path>
+                      <path
+                        fill="#6D3827"
+                        d="M61.752 81.618l2.383-15.413 3.007-1.191 3.574-17.198H125.5l3.574 17.198 3.289 1.191 1.191 15.413 3.236-1.191c3.132-6.008 4.912-11.64 4.912-18.884 0-24.026-19.477-41.12-43.503-41.12s-43.503 17.094-43.503 41.12c0 7.244.589 12.876 3.721 18.884l3.335 1.191z"
+                        data-color="4"
+                      ></path>
+                      <path
+                        fill="#F09C70"
+                        d="M61.064 70.399h-1.778a5.61 5.61 0 100 11.219h1.086a39.123 39.123 0 01-.143-3.208c0-2.747.291-5.425.835-8.011z"
+                        data-color="1"
+                      ></path>
+                      <path
+                        fill="#F09C70"
+                        d="M137.118 70.399h-1.778c.544 2.585.835 5.264.835 8.011 0 1.081-.056 2.149-.143 3.208h1.086a5.61 5.61 0 100-11.219z"
+                        data-color="1"
+                      ></path>
+                      <path
+                        opacity=".06"
+                        d="M137.118 70.399h-1.778c.544 2.585.835 5.264.835 8.011 0 1.081-.056 2.149-.143 3.208h1.086a5.61 5.61 0 100-11.219z"
+                      ></path>
+                      <path
+                        opacity=".06"
+                        d="M61.064 70.399h-1.778a5.61 5.61 0 100 11.219h1.086a39.123 39.123 0 01-.143-3.208c0-2.747.291-5.425.835-8.011z"
+                      ></path>
+                    </g>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- intro video -->
+    <div class="container-fluid d-flex justify-content-center align-items-center content-section mt-5 mb-5">
+      <div class="row d-flex align-items-center justify-content-center col-md-9 justify-content-lg-between">
+        <div class="col-lg-7 text-start video-container" style="position: relative;">
+          <h5 class="text-hover">ODA (Santhosh Babu)</h5>
+          <video width="100%" height="auto" controls>
+            <source src="file.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="col-6 col-lg-3 image-container">
+          <div class="row mb-3 d-flex align-items-center">
+            <img src="dragon-fly.webp" alt="Dragon Fly" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- get OD publication -->
+    <div
+      class="container d-flex col-md-12 justify-content-center align-items-center pt-5 pb-5"
+    >
+      <div class="row col-md-6 w-100 d-flex flex-column align-items-center">
+        <div
+          class="col-md-6 d-flex flex-column justify-content-center align-items-center text-center"
+        >
+          <h2>Let us be a part of your success story...</h2>
+          <h3>JOIN THE TRANSFORMATION DISCUSSION</h3>
+        </div>
+        <div class="d-flex justify-content-center align-items-center">
+          <img src="fish-blackwhite.png" alt="" class="col-3 col-lg-4" />
+          <button class="mt-3 ms-5 me-5 get-od-button btn fs-md-3 ps-3 pe-3 pt-2 pb-2">
+            Get OD Publication
+          </button> 
+          <img src="fish-blackwhite.png" alt="" class="rotate-180 mt-3 col-3 col-lg-4" />
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="row d-flex flex-column align-items-start ps-3">
+          <div
+            class="d-flex align-items-center pb-3 justify-content-between col-12"
+          >
+            <img src="logo.png" alt="Logo" width="100" height="45" />
+            <h3>OD Alternatives</h3>
+          </div>
+          <div class="row justify-content-between align-items-start">
+            <div class="col-12 col-md-4 mb-4">
+              <h3>Contact</h3>
+              <p>
+                OD Alternative Consultancy Pvt Ltd A-6/280 B DDA Flats Paschim
+                Puri New Delhi 110018
+              </p>
+              <p>Sales: info@mysite.com</p>
+              <p>Customer Care: info@mysite.com</p>
+            </div>
+            <div class="col-12 col-md-3 mb-4">
+              <h3>Quick Links</h3>
+              <p class="text-decoration-underline">Terms & Conditions</p>
+              <p class="text-decoration-underline">Privacy Policy</p>
+            </div>
+            <div class="col-12 col-md-3 mb-4">
+              <h3>Follow</h3>
+              <p>Sign up to get the latest news on our product.</p>
+              <form class="form-inline d-flex flex-column">
+                <div class="form-group mb-2">
+                  <label for="email" class="sr-only">Email</label>
+                  <input
+                    type="email"
+                    class="form-control label-corner border border-black"
+                    id="email"
+                    placeholder="Email *"
+                  />
+                </div>
+                <button type="submit" class="btn btn-dark mt-2 custom-corner">
+                  Subscribe
+                </button>
+              </form>
+            </div>
+            <div
+              class="col-12 d-flex flex-row justify-content-start gap-3 mt-4"
+            >
+              <img
+                src="square-linkedin.webp"
+                alt="LinkedIn"
+                width="50"
+                height="50"
+              />
+              <img src="youtube.webp" alt="YouTube" width="50" height="50" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script>
+      let currentSlide = 0;
+      const slides = document.querySelectorAll(".slider-images img");
+
+      function showSlide(index) {
+        slides.forEach((slide, i) => {
+          slide.classList.remove("active");
+          if (i === index) {
+            slide.classList.add("active");
+          }
+        });
+      }
+
+      function nextSlide() {
+        currentSlide = (currentSlide + 1) % slides.length;
+        showSlide(currentSlide);
+      }
+
+      function prevSlide() {
+        currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+        showSlide(currentSlide);
+      }
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
