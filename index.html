@@ -14,25 +14,104 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="col-12 ps-3 pt-4">
-      <nav class="navbar navbar-expand-lg navbar-light">
+    <header class="col-12">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-          <div class="d-flex gap-5">
+          <div class="d-flex align-items-center">
             <img
-              src="logo.png"
+              src="logo.svg"
               class="img-fluid"
               alt=""
-              width="120px"
-              height="120px"
+              width="100px"
+              height="100px"
             />
-            <a class="navbar-brand" href="#">OD Alternatives</a>
+            <a
+              class="navbar-brand"
+              style="color: #ffb715; font-weight: 100"
+              href="#"
+              ><span style="color: #ffb715">OD</span> Alternatives</a
+            >
           </div>
           <button
             class="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="nav-overlay"></div>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li>
+                <a class="nav-link" aria-current="page" href="#"
+                  ><div class="d-flex d-md-none align-items-center">
+                    <img
+                      src="logo.svg"
+                      class="img-fluid"
+                      alt=""
+                      width="100px"
+                      height="100px"
+                    />
+                    <a
+                      class="navbar-brand"
+                      style="color: #ffb715; font-weight: 100"
+                      href="#"
+                      ><span style="color: #ffb715">OD</span> Alternatives</a
+                    >
+                  </div></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Our Expertise</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Our People</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"> Our Clients </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Recent Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">OD Certification</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Our Clients</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <div class="d-flex">
+            <img
+              src="logo.svg"
+              class="img-fluid"
+              alt=""
+              width="120px"
+              height="120px"
+            />
+            <a
+              class="navbar-brand"
+              style="color: #242423; font-weight: 600"
+              href="#"
+              ><span style="color: #ffb715">OD</span> Alternatives</a
+            >
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
@@ -40,35 +119,38 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto d-flex">
-              <li class="nav-item border-end border-black pr-xl-4">
-                <a class="nav-link active fs-6" aria-current="page" href="#"
+              <li class="nav-item me-1 me-lg-2 me-xl-4">
+                <a
+                  class="nav-link active home-link"
+                  aria-current="page"
+                  href="#"
                   >Home</a
                 >
               </li>
-              <li class="nav-item border-end border-black">
-                <a class="nav-link" href="#">Our Expertise</a>
+              <li class="nav-item me-1 me-lg-2 me-xl-4">
+                <a class="nav-link home-link" href="#">Our Expertise</a>
               </li>
-              <li class="nav-item border-end border-black">
-                <a class="nav-link" href="#">Our People</a>
+              <li class="nav-item me-1 me-lg-2 me-xl-4">
+                <a class="nav-link home-link" href="#">Our People</a>
               </li>
-              <li class="nav-item border-end border-black">
-                <a class="nav-link" href="#">Our Clients</a>
+              <li class="nav-item me-1 me-lg-2 me-xl-4">
+                <a class="nav-link home-link" href="#">Our Clients</a>
               </li>
-              <li class="nav-item border-end border-black">
-                <a class="nav-link" href="#">Recent Project</a>
+              <li class="nav-item me-1 me-lg-2 me-xl-4">
+                <a class="nav-link home-link" href="#">Recent Project</a>
               </li>
-              <li class="nav-item border-end border-black">
-                <a class="nav-link" href="#">OD Certification</a>
+              <li class="nav-item me-1 me-lg-2 me-xl-4">
+                <a class="nav-link home-link" href="#">OD Certification</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Our Clients</a>
+                <a class="nav-link home-link" href="#">Our Clients</a>
               </li>
             </ul>
           </div>
         </div>
-      </nav>
+      </nav> -->
     </header>
-    <main class="container mb-5 pb-5 pt-5 mt-5">
+    <!-- <main class="container mb-5 pb-5 pt-5 mt-5">
       <div class="row">
         <div class="col-md-6 custom-div ps-5 pe-5 d-flex flex-column g-5">
           <h2 class="larger-text-h2 text-start">Because you believe in</h2>
@@ -122,8 +204,8 @@
       <span class="ps-4 pe-4 larger-text-p"
         >Views & News <span class="ps-2">>></span></span
       >
-    </button>
-    <section class="content-section pt-5">
+    </button> -->
+    <!-- <section class="content-section pt-5">
       <div class="wave position-relative">
         <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
           <path
@@ -165,9 +247,9 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- our expertise -->
-    <section class="col-12 pt-5 pb-5 d-flex flex-column align-items-center">
+    <!-- <section class="col-12 pt-5 pb-5 d-flex flex-column align-items-center">
       <h1 class="text-start my-4">Our Expertise</h1>
       <div class="row g-5 col-10 d-flex justify-content-between">
         <div
@@ -390,9 +472,9 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- About founder -->
-    <div class="container-fluid ps-5 pe-5 pe-xl-0 d-flex justify-content-center content-section mt-5 mb-5">
+    <!-- <div class="container-fluid ps-5 pe-5 pe-xl-0 d-flex justify-content-center content-section mt-5 mb-5">
       <div class="row d-flex flex-column flex-xl-row col-xl-12 align-items-center justify-content-center">
         <div class="col-xl-4 text-start about-founder">
           About the Founder... Santhosh is passionate about supporting
@@ -434,14 +516,13 @@
           </div>         
         </div>
       </div>
-    </div>
+    </div> -->
     <!-- Reviews -->
-    <div class="container">
+    <!-- <div class="container">
       <div class="row justify-content-center">
         <div class="col-12 col-sm-10 col-md-8 col-lg-11 col-xl-12">
           <h2 class="text-center text-md-start mt-5 pt-5">What Our Clients Say</h2>
           <div class="d-flex flex-column flex-md-row justify-content-center align-items-center mt-4 g-5">
-            <!-- Testimonial Card 1 -->
             <div class="col-12 col-sm-10 col-md-8 col-lg-4 me-5">
               <div class="card mx-auto">
                 <div class="card-body text-left position-relative">
@@ -465,7 +546,6 @@
                     aria-hidden="true"
                     aria-label=""
                   >
-                    <!-- SVG Content -->
                     <g>
                       <path
                         d="M137.03 74.22c0 21.387-17.337 38.724-38.724 38.724-21.387 0-38.724-17.337-38.724-38.724 0-21.387 17.337-38.724 38.724-38.724 21.387 0 38.724 17.337 38.724 38.724z"
@@ -548,7 +628,6 @@
                 </div>
               </div>
             </div>
-            <!-- Testimonial Card 2 -->
             <div class="col-12 col-sm-10 col-md-8 col-lg-4 me-5">
               <div class="card mx-auto">
                 <div class="card-body text-left position-relative">
@@ -572,7 +651,6 @@
                     aria-hidden="true"
                     aria-label=""
                   >
-                    <!-- SVG Content -->
                     <g>
                       <path
                         fill="#F7B98F"
@@ -665,7 +743,6 @@
                 </div>
               </div>
             </div>
-            <!-- Testimonial Card 3 -->
             <div class="col-12 col-sm-10 col-md-8 col-lg-4 me-5">
               <div class="card mx-auto">
                 <div class="card-body text-left position-relative">
@@ -690,7 +767,6 @@
                     aria-hidden="true"
                     aria-label=""
                   >
-                    <!-- SVG Content -->
                     <g>
                       <path
                         d="M137.03 74.22c0 21.387-17.337 38.724-38.724 38.724-21.387 0-38.724-17.337-38.724-38.724 0-21.387 17.337-38.724 38.724-38.724 21.387 0 38.724 17.337 38.724 38.724z"
@@ -776,10 +852,10 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <!-- intro video -->
-    <div class="container-fluid d-flex justify-content-center align-items-center content-section mt-5 mb-5">
+    <!-- <div class="container-fluid d-flex justify-content-center align-items-center content-section mt-5 mb-5">
       <div class="row d-flex align-items-center justify-content-center col-md-9 justify-content-lg-between">
         <div class="col-lg-7 text-start video-container" style="position: relative;">
           <h5 class="text-hover">ODA (Santhosh Babu)</h5>
@@ -794,9 +870,9 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
     <!-- get OD publication -->
-    <div
+    <!-- <div
       class="container d-flex col-md-12 justify-content-center align-items-center pt-5 pb-5"
     >
       <div class="row col-md-6 w-100 d-flex flex-column align-items-center">
@@ -814,7 +890,7 @@
           <img src="fish-blackwhite.png" alt="" class="rotate-180 mt-3 col-3 col-lg-4" />
         </div>
       </div>
-    </div>
+    </div> -->
     <footer class="footer">
       <div class="container">
         <div class="row d-flex flex-column align-items-start ps-3">
